@@ -21,3 +21,14 @@ def multiply(number1, number2):
 # print(multiply(6, 8))
 x = multiply(6, 8)
 print(x)
+
+
+# KEYWORD ARGUMENTS
+def hello(first, middle, last):
+    print("Hello " + first + " " + middle + " " + last)
+
+
+hello(last="Code", middle="Dude", first="Bro")
+
+# NESTED FUNCTION CALLS
+print(round(abs(float(input("Enter a whole positive number: ")))))
