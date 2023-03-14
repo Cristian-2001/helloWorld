@@ -9,13 +9,13 @@ capitals = {'USA': 'Washington DC',
 capitals.update({'Germany': 'Berlin'})
 capitals.update({'USA': 'Las Vegas'})
 capitals.pop('China')
-capitals.clear()
+# capitals.clear()
 
 # print(capitals['Italy'])
 # print(capitals.get('Italy'))
 # print(capitals.get('Germany'))
-# print(capitals.keys())
-# print(capitals.values())
+print(capitals.keys())
+print(capitals.values())
 # print(capitals.items())
 
 for key, value in capitals.items():
