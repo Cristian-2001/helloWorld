@@ -14,6 +14,8 @@ def add(*args):
 
 
 print(add(1, 2, 3, 4))
+tup = (1, 2, 3, 4)
+print(add(*tup))  # l'operatore unario * esplode la collection e inserisce ogni elemento come parametro
 
 
 # **kwargs =    parameters that will pack all arguments into a dictionary
